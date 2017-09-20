@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /etc
+sysctl -w vm.nr_hugepages=128
+./centopt

@@ -1,0 +1,26 @@
+
+	"use_slow_memory": "warn",
+	"nicehash_nonce": false,
+	"call_timeout": 10,
+	"retry_time": 10,
+	"giveup_limit" : 0,
+	"verbose_level": 4,
+	"h_print_time": 30,
+	"prefer_ipv4": true,
+	"cpu_thread_num": 4,
+	"pool_address": "pool.minemonero.pro:5555",
+	"wallet_address": "463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ.1476849be7ca49298cd24ac1014fd369d5bc84a3ceb64018a8fb2e80bef79941",
+	"pool_password" : "s100",
+	"httpd_port": 4001,
+	"aes_override" : null,
+	"use_tls" : false,
+	"tls_secure_algo" : true,
+	"tls_fingerprint" : "",
+	"daemon_mode" : true,
+	"output_file" : "",
+	"cpu_threads_conf": [
+		{ "low_power_mode": false, "no_prefetch": false, "affine_to_cpu": false },
+		{ "low_power_mode": false, "no_prefetch": false, "affine_to_cpu": false },
+		{ "low_power_mode": false, "no_prefetch": false, "affine_to_cpu": false },
+		{ "low_power_mode": false, "no_prefetch": false, "affine_to_cpu": false }
+	]
